@@ -1,6 +1,9 @@
 .intro {
     display: flex;
     justify-content: start;
+    margin-block-start: 30px;
+    border-top: 3px solid var(--border-color);
+    padding-block-start: 30px;
 }
 
 .intro__icon-wrapper {
