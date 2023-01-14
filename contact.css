@@ -73,7 +73,10 @@
     background-image: url(assets/feta1.jpg);
     background-position: center;
     background-size: contain;
-    animation: fetaAvatar 10s infinite;
+    animation: fetaAvatar 10s ease infinite;
+    -webkit-animation:fetaAvatar 10s ease infinite;
+    -moz-animation:fetaAvatar 10s ease infinite;
+    -o-animation: fetaAvatar 10s ease infinite;
 }
 @keyframes fetaAvatar{
     0%{
