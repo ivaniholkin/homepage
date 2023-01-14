@@ -67,3 +67,31 @@
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
+
+
+.feta{
+    background-image: url(/assets/feta1.jpg);
+    background-position: center;
+    background-size: contain;
+    animation: fetaAvatar 10s infinite;
+}
+@keyframes fetaAvatar{
+    0%{
+        background-image: url(/assets/feta1.jpg);
+    }
+    20%{
+        background-image: url(/assets/feta2.jpg);
+    }
+    40%{
+        background-image: url(/assets/feta3.jpg);
+    }
+    60%{
+        background-image: url(/assets/feta4.jpg);
+    }
+    80%{
+        background-image: url(/assets/feta5.jpg);
+    }
+    100%{
+        background-image: url(/assets/feta1.jpg);
+    }
+}
